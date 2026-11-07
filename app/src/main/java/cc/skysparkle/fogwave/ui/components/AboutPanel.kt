@@ -38,6 +38,7 @@ import cc.skysparkle.fogwave.R
 import cc.skysparkle.fogwave.ui.theme.LocalGeoColors
 
 private const val REPOSITORY_URL = "https://github.com/JacobBico/fogwave-baltic"
+private const val ORIGINAL_REPOSITORY_URL = "https://git.skysparkle.cc/kalarina/Fogwave"
 private const val PRIVACY_POLICY_URL = "https://skysparkle.cc/privacy?lang=en"
 
 @Composable
@@ -115,6 +116,16 @@ fun AboutPanel(modifier: Modifier = Modifier) {
             trailingIconRes = R.drawable.ic_open_in_new,
             onClick = { context.openUrl(REPOSITORY_URL) },
             modifier = Modifier.testTag("github_repo_card")
+        )
+
+        AboutLinkCard(
+            iconRes = R.drawable.ic_repo,
+            iconTint = null,
+            title = stringResource(R.string.about_original_repository),
+            subtitle = ORIGINAL_REPOSITORY_URL.removePrefix("https://"),
+            trailingIconRes = R.drawable.ic_open_in_new,
+            onClick = { context.openUrl(ORIGINAL_REPOSITORY_URL) },
+            modifier = Modifier.testTag("original_repo_card")
         )
 
         AboutLinkCard(

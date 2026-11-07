@@ -1,10 +1,11 @@
 <resources>
-    <string name="app_name">Fogwave</string>
+    <string name="app_name">fogwave-baltic</string>
     <string name="app_subtitle">Interneto radijas</string>
 
     <string name="about_version">Versija %1$s</string>
     <string name="about_description">Greitas ir elegantiškas interneto radijo grotuvas su švariu garsu ir darniu geometriniu dizainu.</string>
     <string name="about_my_repository">Mano saugykla</string>
+    <string name="about_original_repository">Originali Fogwave versija (kalarina)</string>
     <string name="about_open_in_browser">Atidaryti naršyklėje</string>
     <string name="fogwave_logo_content_desc">Fogwave logotipas</string>
 

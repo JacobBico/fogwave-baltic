@@ -14,8 +14,8 @@ android {
     applicationId = "io.github.jacobbico.fogwave.baltic"
     minSdk = 24
     targetSdk = 36
-    versionCode = 12
-    versionName = "1.0.12"
+    versionCode = 13
+    versionName = "1.0.12.1"
 
     testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
 
@@ -86,6 +86,8 @@ dependencies {
 
   implementation(libs.coil.compose)
   implementation(libs.androidx.media3.exoplayer)
+  // HLS (.m3u8) support, needed by Latvijas Radio 1 and 2 and LRT Radijas.
+  implementation(libs.androidx.media3.exoplayer.hls)
   implementation(libs.androidx.media3.common)
   implementation(libs.androidx.media3.session)
   implementation(libs.kotlinx.coroutines.android)

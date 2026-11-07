@@ -1,10 +1,11 @@
 <resources>
-    <string name="app_name">Fogwave</string>
+    <string name="app_name">fogwave-baltic</string>
     <string name="app_subtitle">网络电台</string>
 
     <string name="about_version">版本 %1$s</string>
     <string name="about_description">音质清晰、几何设计和谐统一的快速优雅网络电台播放器。</string>
     <string name="about_my_repository">我的仓库</string>
+    <string name="about_original_repository">原版 Fogwave（kalarina）</string>
     <string name="about_open_in_browser">在浏览器中打开</string>
     <string name="fogwave_logo_content_desc">Fogwave 标志</string>
 

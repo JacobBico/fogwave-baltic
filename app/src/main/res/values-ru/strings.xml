@@ -1,10 +1,11 @@
 <resources>
-    <string name="app_name">Fogwave</string>
+    <string name="app_name">fogwave-baltic</string>
     <string name="app_subtitle">Интернет-радио</string>
 
     <string name="about_version">Версия %1$s</string>
     <string name="about_description">Быстрый и элегантный плеер интернет-радио с чистым звуком и гармоничным геометрическим дизайном.</string>
     <string name="about_my_repository">Мой репозиторий</string>
+    <string name="about_original_repository">Оригинальный Fogwave от kalarina</string>
     <string name="about_open_in_browser">Открыть в браузере</string>
     <string name="fogwave_logo_content_desc">Логотип Fogwave</string>
 

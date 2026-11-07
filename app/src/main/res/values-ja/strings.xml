@@ -1,10 +1,11 @@
 <resources>
-    <string name="app_name">Fogwave</string>
+    <string name="app_name">fogwave-baltic</string>
     <string name="app_subtitle">インターネットラジオ</string>
 
     <string name="about_version">バージョン %1$s</string>
     <string name="about_description">クリアなサウンドと調和のとれた幾何学的デザインを備えた、高速でエレガントなインターネットラジオプレーヤー。</string>
     <string name="about_my_repository">マイリポジトリ</string>
+    <string name="about_original_repository">オリジナル版 Fogwave（kalarina）</string>
     <string name="about_open_in_browser">ブラウザで開く</string>
     <string name="fogwave_logo_content_desc">Fogwave ロゴ</string>
 

@@ -17,7 +17,8 @@ This repository, https://github.com/JacobBico/fogwave-baltic, is a modified vers
 - **Genres added** (`app/src/main/java/cc/skysparkle/fogwave/data/model/RadioStation.kt`): News & talk, and Latvian.
 - **Translations** of the new station descriptions and genres (`app/src/main/res/values*/strings.xml`).
 - **Application ID changed** to `io.github.jacobbico.fogwave.baltic` so this build can be installed next to the original (`app/build.gradle.kts`).
-- **About screen** links to this repository (`app/src/main/java/cc/skysparkle/fogwave/ui/components/AboutPanel.kt`).
+- **About screen** links to this repository and to the original (`app/src/main/java/cc/skysparkle/fogwave/ui/components/AboutPanel.kt`).
+- **App name** changed to `fogwave-baltic` (`app/src/main/res/values*/strings.xml`, store titles).
 - **Documentation and store text**: README, CONTRIBUTING, fastlane store descriptions, and the issue templates (moved from `.gitea/` to `.github/`).
 
 Everything else is unchanged from the original.
