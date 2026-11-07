@@ -6,7 +6,7 @@
 
 <p align="center">
   <b>A calm, open-source internet radio app for Android.</b><br>
-  Listen to Lithuania's favorite stations in one tap.
+  Listen to Lithuanian and Latvian stations in one tap.
 </p>
 
 <p align="center">
@@ -20,6 +20,8 @@
   <a href="https://git.skysparkle.cc/kalarina/Fogwave/releases"><img src="assets/get-it-on-gitea.png" height="56" alt="Get it on Gitea"></a>
 </p>
 
+<p align="center"><sub>These are the links to the original Fogwave app by kalarina, not to this fork.</sub></p>
+
 <p align="center">
   <img src="assets/screenshots/1-lithuanian-radio-left.png" width="160" alt="Lithuanian radio, live"><img src="assets/screenshots/2-lithuanian-radio-right.png" width="160" alt="Station list">
   <img src="assets/screenshots/3-favorites.png" width="160" alt="Save your favorites">
@@ -29,9 +31,20 @@
 > [!TIP]
 > If you find Fogwave useful, please consider giving it a ⭐ — it helps others discover the project.
 
+## 🍴 About this fork
+
+Fogwave was originally created by **kalarina**. The original app is published at [git.skysparkle.cc/kalarina/Fogwave](https://git.skysparkle.cc/kalarina/Fogwave) and [github.com/kalarina-bit/Fogwave](https://github.com/kalarina-bit/Fogwave). All credit for the app's design and code goes to the original author.
+
+This fork adds stations the original didn't have:
+
+- **Lithuanian news and talk:** LRT Radijas and Žinių radijas
+- **Latvian public radio:** Latvijas Radio 1 and Latvijas Radio 2
+
+The app remains under the [GNU GPL v3.0 only](LICENSE). Changes from the original are listed in the commit history of this repository.
+
 ## ✨ Features
 
-- 📻 **10 Lithuanian stations** — ZIP FM, Power Hit Radio, Rock FM, Relax FM, M-1, Gold FM and more
+- 📻 **12 stations** — Lithuanian music, news and talk (ZIP FM, Power Hit Radio, LRT Radijas, Žinių radijas and more) plus Latvian public radio (Latvijas Radio 1 and 2)
 - 🎧 **Background playback** with lock-screen, notification, headphone and Bluetooth controls
 - 🚗 **Android Auto** support
 - 🔄 **Auto-reconnect** when the stream drops or the network comes back

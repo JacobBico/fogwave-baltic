@@ -2,9 +2,11 @@
 
 Thanks for wanting to help! This guide explains where to contribute, what fits the project and how to send changes.
 
+This repository is a fork of the original Fogwave by kalarina. The same rules apply here, and the original project's ground rules, license and author credit stay in place.
+
 ## Where to contribute
 
-Issues and pull requests go to the repository on [Gitea](https://git.skysparkle.cc/kalarina/Fogwave).
+Issues and pull requests go to the repository where you found this file, which is the fork of Fogwave. Changes to the original app go to its own repository.
 
 ## Ways to help
 
@@ -30,13 +32,13 @@ Issues and pull requests go to the repository on [Gitea](https://git.skysparkle.
 
 These will not be accepted:
 
-- Stations from outside Lithuania.
+- Stations from outside Lithuania and Latvia.
 - A light theme or automatic light/dark switching — Fogwave is dark only.
 - New UI languages (see [Translations](#translations)).
 
 ## Stations
 
-A new station must be Lithuanian, have an official public stream (HTTP or HTTPS) and allow playback in third-party players. Include the official website and stream URL in the request.
+A new station must be Lithuanian or Latvian, have an official public stream (HTTPS only; the app blocks cleartext HTTP) and allow playback in third-party players. Include the official website and stream URL in the request. Stations can be music, news or talk.
 
 ## Translations
 

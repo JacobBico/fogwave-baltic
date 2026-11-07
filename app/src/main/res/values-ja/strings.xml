@@ -88,6 +88,11 @@
     <string name="station_desc_plus">音楽と往年のヒット曲</string>
     <string name="station_desc_goldfm">ゴールデンヒット</string>
     <string name="station_desc_rc">Radiocentras • リトアニア</string>
+    <string name="station_desc_lrtradijas">ニュース・文化・トーク • リトアニア</string>
+    <string name="station_desc_ziniu">24時間ニュース • リトアニア</string>
+    <string name="station_desc_lr1">公共ニュース・トーク • ラトビア</string>
+    <string name="station_desc_lr2">公共ラジオ • ラトビア</string>
+
     <string name="genre_hits">ヒット曲</string>
     <string name="genre_pop">ポップ</string>
     <string name="genre_dance">ダンス</string>
@@ -95,6 +100,8 @@
     <string name="genre_rock">ロック</string>
     <string name="genre_easy_listening">イージーリスニング</string>
     <string name="genre_lithuanian">リトアニア音楽</string>
+    <string name="genre_latvian">ラトビア</string>
+    <string name="genre_news_talk">ニュース・トーク</string>
 
     <string name="eq_preset_normal">ノーマル</string>
     <string name="eq_preset_classical">クラシック</string>

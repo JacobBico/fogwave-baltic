@@ -24,7 +24,9 @@ enum class Genre(@param:StringRes val labelRes: Int) {
     OLDIES(R.string.genre_oldies),
     ROCK(R.string.genre_rock),
     EASY_LISTENING(R.string.genre_easy_listening),
-    LITHUANIAN(R.string.genre_lithuanian)
+    LITHUANIAN(R.string.genre_lithuanian),
+    LATVIAN(R.string.genre_latvian),
+    NEWS_TALK(R.string.genre_news_talk)
 }
 
 enum class ViewMode {
