@@ -57,23 +57,33 @@ This fork is published at [github.com/JacobBico/fogwave-baltic](https://github.c
 
 ## <img src="assets/icon-install.png" width="32" alt=""> Installation
 
-This fork doesn't publish APKs yet, so build it from source (see below). The F-Droid, Obtainium and download links above install the **original** Fogwave app by kalarina, not this fork.
+**On your Android phone:** open the [latest release](https://github.com/JacobBico/fogwave-baltic/releases/latest), tap the `Fogwave-Baltic-<version>.apk` file, allow installs from your browser when Android asks (Settings → Apps → Special access → Install unknown apps), then open the file and confirm. Android treats it as a separate app from the original Fogwave, so both can be installed side by side.
+
+To build it yourself, see Building from source below.
+
+The F-Droid, Obtainium and download links above install the **original** Fogwave app by kalarina, not this fork.
 
 ## <img src="assets/icon-verify.png" width="32" alt=""> Verifying a download
 
-Official APKs of the **original** Fogwave are signed with the same key. Builds of this fork are signed with a different key, so this check doesn't apply to them. To check an original APK before installing:
+Releases of this fork are signed with this key. Its SHA-256 fingerprint is:
 
-```sh
-apksigner verify --print-certs Fogwave-v<version>.apk
+```
+10:D4:8A:4B:39:E5:53:E2:3B:1E:0B:BF:91:1D:F9:D9:77:09:54:97:DD:B1:49:1F:A4:2C:05:1E:E9:77:6F:8A
 ```
 
-The SHA-256 fingerprint of the signing certificate must be:
+Check it with:
+
+```sh
+apksigner verify --print-certs Fogwave-Baltic-<version>.apk
+```
+
+Official APKs of the **original** Fogwave are signed with a different key. Their fingerprint is:
 
 ```
 1A:85:AF:5A:08:23:DE:D1:76:7C:07:55:41:FA:15:87:7F:6E:3B:99:9E:5E:52:CF:2B:C8:03:55:F6:63:12:7F
 ```
 
-`apksigner` prints the same value in lowercase without colons. On Android you can check it with [AppVerifier](https://github.com/soupslurpr/AppVerifier) (app ID of the original app: `cc.skysparkle.fogwave`).
+`apksigner` prints the same value in lowercase without colons. On Android you can check an APK with [AppVerifier](https://github.com/soupslurpr/AppVerifier); this fork's app ID is `io.github.jacobbico.fogwave.baltic`, and the original's is `cc.skysparkle.fogwave`.
 
 ## <img src="assets/icon-structure.png" width="32" alt=""> Building from source
 
