@@ -10,7 +10,8 @@ android {
   compileSdk { version = release(37) }
 
   defaultConfig {
-    applicationId = "cc.skysparkle.fogwave"
+    // Separate from the original app so both can be installed side by side.
+    applicationId = "io.github.jacobbico.fogwave.baltic"
     minSdk = 24
     targetSdk = 36
     versionCode = 12

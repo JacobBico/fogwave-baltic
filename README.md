@@ -40,7 +40,7 @@ This fork adds stations the original didn't have:
 - **Lithuanian news and talk:** LRT Radijas and Žinių radijas
 - **Latvian public radio:** Latvijas Radio 1 and Latvijas Radio 2
 
-The app remains under the [GNU GPL v3.0 only](LICENSE). Changes from the original are listed in the commit history of this repository.
+This fork is published at [github.com/JacobBico/fogwave-baltic](https://github.com/JacobBico/fogwave-baltic). The app remains under the [GNU GPL v3.0 only](LICENSE). Changes from the original are listed in [NOTICE.md](NOTICE.md) and in the commit history.
 
 ## ✨ Features
 
@@ -57,13 +57,11 @@ The app remains under the [GNU GPL v3.0 only](LICENSE). Changes from the origina
 
 ## <img src="assets/icon-install.png" width="32" alt=""> Installation
 
-- **[F-Droid](https://f-droid.org/packages/cc.skysparkle.fogwave/)** — install and update through the F-Droid client.
-- **[Obtainium](https://apps.obtainium.imranr.dev/redirect?r=obtainium://add/https://git.skysparkle.cc/kalarina/Fogwave)** — installs the APK straight from Gitea releases and keeps it up to date.
-- **Manually** — download the latest APK from [GitHub](https://github.com/kalarina-bit/Fogwave/releases/latest) or [Gitea](https://git.skysparkle.cc/kalarina/Fogwave/releases), allow installs from unknown sources for the app you open it with (Settings → Apps → Special access → Install unknown apps), then open the `.apk` and confirm.
+This fork doesn't publish APKs yet, so build it from source (see below). The F-Droid, Obtainium and download links above install the **original** Fogwave app by kalarina, not this fork.
 
 ## <img src="assets/icon-verify.png" width="32" alt=""> Verifying a download
 
-Every official APK is signed with the same key. Check it before installing:
+Official APKs of the **original** Fogwave are signed with the same key. Builds of this fork are signed with a different key, so this check doesn't apply to them. To check an original APK before installing:
 
 ```sh
 apksigner verify --print-certs Fogwave-v<version>.apk
@@ -75,7 +73,7 @@ The SHA-256 fingerprint of the signing certificate must be:
 1A:85:AF:5A:08:23:DE:D1:76:7C:07:55:41:FA:15:87:7F:6E:3B:99:9E:5E:52:CF:2B:C8:03:55:F6:63:12:7F
 ```
 
-`apksigner` prints the same value in lowercase without colons. On Android you can check it with [AppVerifier](https://github.com/soupslurpr/AppVerifier) (app ID `cc.skysparkle.fogwave`).
+`apksigner` prints the same value in lowercase without colons. On Android you can check it with [AppVerifier](https://github.com/soupslurpr/AppVerifier) (app ID of the original app: `cc.skysparkle.fogwave`).
 
 ## <img src="assets/icon-structure.png" width="32" alt=""> Building from source
 
@@ -95,7 +93,7 @@ Release builds are signed only when a keystore is supplied through the `KEYSTORE
 
 ## 🤝 Contributing
 
-Bug reports, station suggestions, translation fixes and pull requests are welcome in the [issue tracker](https://git.skysparkle.cc/kalarina/Fogwave/issues). Please read [CONTRIBUTING.md](CONTRIBUTING.md) first — it explains what fits the project and how to send changes. To open an issue or a pull request, [create an account](https://git.skysparkle.cc/user/sign_up) on this Gitea.
+Bug reports, station suggestions, translation fixes and pull requests are welcome in the [issue tracker](https://github.com/JacobBico/fogwave-baltic/issues) of this fork. Please read [CONTRIBUTING.md](CONTRIBUTING.md) first — it explains what fits the project and how to send changes. To open an issue or a pull request, you need a [GitHub account](https://github.com/signup).
 
 ## 📄 License
 

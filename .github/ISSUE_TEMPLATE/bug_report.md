@@ -19,7 +19,7 @@ title: "[Bug] "
 **Environment**
 
 - App version:
-- Installed from: Gitea / F-Droid / Google Play
+- Installed from: GitHub (fork) / built from source / other
 - Device and Android version:
 - Station (if related):
 
