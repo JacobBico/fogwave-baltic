@@ -14,8 +14,8 @@ android {
     applicationId = "io.github.jacobbico.fogwave.baltic"
     minSdk = 24
     targetSdk = 36
-    versionCode = 13
-    versionName = "1.0.12.1"
+    versionCode = 14
+    versionName = "1.0.12.2"
 
     testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
 

@@ -106,25 +106,27 @@ class RadioRepository(context: Context) {
             name = "LRT Radijas",
             descriptionRes = R.string.station_desc_lrtradijas,
             streamUrl = "https://stream-live.lrt.lt/radijas/master.m3u8",
-            iconResId = R.drawable.ic_radio,
+            iconResId = R.drawable.ic_station_lrtradijas,
             genres = listOf(Genre.NEWS_TALK),
-            bitrate = "HLS"
+            bitrate = "HLS",
+            lightBackdrop = true
         ),
         RadioStation(
             id = "ziniu",
             name = "Žinių radijas",
             descriptionRes = R.string.station_desc_ziniu,
             streamUrl = "https://netradio.ziniur.lt/ziniur.mp3",
-            iconResId = R.drawable.ic_radio,
+            iconResId = R.drawable.ic_station_ziniu,
             genres = listOf(Genre.NEWS_TALK),
-            bitrate = "MP3 320"
+            bitrate = "MP3 320",
+            lightBackdrop = true
         ),
         RadioStation(
             id = "lr1",
             name = "Latvijas Radio 1",
             descriptionRes = R.string.station_desc_lr1,
             streamUrl = "https://muste.latvijasradio.lv/shoutcast/mp4:lr1a.stream/playlist.m3u8",
-            iconResId = R.drawable.ic_radio,
+            iconResId = R.drawable.ic_station_lr1,
             genres = listOf(Genre.NEWS_TALK, Genre.LATVIAN),
             bitrate = "AAC 128"
         ),
@@ -133,7 +135,7 @@ class RadioRepository(context: Context) {
             name = "Latvijas Radio 2",
             descriptionRes = R.string.station_desc_lr2,
             streamUrl = "https://muste.latvijasradio.lv/shoutcast/mp4:lr2a.stream/playlist.m3u8",
-            iconResId = R.drawable.ic_radio,
+            iconResId = R.drawable.ic_station_lr2,
             genres = listOf(Genre.LATVIAN, Genre.NEWS_TALK),
             bitrate = "AAC 160"
         ),
